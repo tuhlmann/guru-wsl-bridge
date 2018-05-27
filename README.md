@@ -35,6 +35,12 @@ When we call an executable this way it's not calling the users .bashrc, which ma
 important environment settings like the GOROOT and GOPATH. These are
 set within `guru.sh`, which in turn than just calls the Linux `guru`.
 
+* Install `guru` in WSL (if it's not there already):
+
+```
+go get -u -v golang.org/x/tools/cmd/guru
+```
+
 * Please make sure you adapt `guru.sh` to your environment:
 
 ```
